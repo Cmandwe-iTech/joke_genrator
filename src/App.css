@@ -1,0 +1,98 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+.bookmark_display {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.bm-dis {
+  width: 10%;
+  height: fit-content;
+  margin: 2px 0 0 2px;
+  background: skyblue;
+  color: blue;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 10px;
+}
+.joke_display {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.joke {
+  height: 30%;
+  width: 30%;
+  background: blue;
+  color: white;
+  font-size: larger;
+  margin: 10px auto 0;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 10px;
+}
+.btns {
+  margin: 10px auto 0;
+}
+button {
+  margin: 10px;
+  height: 30px;
+  width: auto;
+  background: rgb(19, 226, 19);
+  border: none;
+  border-radius: 10px;
+  
+}
+h2{
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+}
+.footer{
+  height: 20%;
+  background: grey;
+}

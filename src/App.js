@@ -72,6 +72,7 @@ function App() {
           </svg>
         </a>
         <h5>Github</h5>
+      <span>cm@gmail.com</span>
       </div>
     </div>
   );

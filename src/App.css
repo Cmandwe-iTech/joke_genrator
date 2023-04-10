@@ -49,6 +49,9 @@
   flex-direction: row;
   flex-wrap: nowrap;
 }
+.bookmark_display button{
+  font-size: 10px;
+}
 .bm-dis {
   width: 10%;
   height: fit-content;
